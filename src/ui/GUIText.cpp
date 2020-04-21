@@ -1,0 +1,46 @@
+// GUIText.cpp
+//
+// Copyright(C) 2020 neobits (Angelo Moro)
+//
+// This file is part of MiniChess-SFML.
+//
+// MiniChess-SFML is free software : you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// MiniChess-SFML is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Foobar.If not, see < https://www.gnu.org/licenses/>.
+
+#include "GUIText.h"
+
+GUIText::GUIText()
+{
+	text.setFillColor(sf::Color::White);
+	text.setOutlineColor(sf::Color::Blue);
+	text.setCharacterSize(30);
+	text.setPosition(10, 10);
+	label = "Label";
+	infoText = "";
+	text.setString(label +" "+ infoText);
+}
+
+GUIText::~GUIText()
+{
+}
+
+void GUIText::Update(float deltaTime)
+{
+
+}
+
+void GUIText::Draw(sf::RenderWindow & renderWindow)
+{
+	text.setString(label + " " + infoText);
+	renderWindow.draw(text);
+}

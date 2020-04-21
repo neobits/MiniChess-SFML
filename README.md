@@ -2,13 +2,14 @@
 It's a simple 2D graphical approach of the common chess game built 
 upon Simple and Fast Multimedia Library (SFML).
 
-## Dev
+## Dev Notes
 The system loads the chess pieces for the two players and initializes the board 
 with an input string. It's built with a standard game engine derived from the SFML.
 
 ## Uses
-To initialize the board dinamically, a the input `string` is written under algebraic 
-notation `"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"`, 
+To initialize the board dinamically, the game takes an input `string` written following 
+the [algebraic notation](https://en.wikipedia.org/wiki/Algebraic_notation_(chess))
+`"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"`.
 
 ## Further Dev
 Many ideas come to expand the system and are planned:
@@ -22,3 +23,4 @@ Many ideas come to expand the system and are planned:
 - MS Visual Studio Community 2017
 - [Inkscape](https://inkscape.org/it/)
 - Default 2D [chess piece graphics](https://en.wikipedia.org/wiki/Chess_piece)
+- Arcade Classic font from [dafont: Tecno > LCD](https://www.dafont.com)
