@@ -17,6 +17,8 @@ Many ideas come to expand the system and are planned:
 - Develop an evaluation method to create an iA machine
 - Minor improvements to load random graphic tiles and more style pieces to the game.
 
-## Tools used
+## Tools and Resources
 - [SFML 2.5.1 64-bit](https://www.sfml-dev.org/download/sfml/2.5.1/)
 - MS Visual Studio Community 2017
+- [Inkscape](https://inkscape.org/it/)
+- Default 2D [chess piece graphics](https://en.wikipedia.org/wiki/Chess_piece)
